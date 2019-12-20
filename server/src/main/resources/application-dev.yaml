@@ -1,0 +1,9 @@
+dosage:
+  router:
+    key: first_router
+feign:
+  decision:
+    url: http://localhost:8081
+  instore:
+    url: http://api.production.org/instore
+
